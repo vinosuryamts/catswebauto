@@ -62,7 +62,6 @@ public class LaunchBrowser {
 	
 	public void implicitwait(int seconds, TimeUnit unit) {
 		webdriver.manage().timeouts().implicitlyWait(seconds,unit);
-		webdriver.manage().timeouts().implicitlyWait(seconds,unit);
 	}
 	
 	
